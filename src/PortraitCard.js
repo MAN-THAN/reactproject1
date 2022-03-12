@@ -7,14 +7,25 @@ import CardActionArea from '@mui/material/CardActionArea';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import {makeStyles} from "@material-ui/core"
+
+const useStyles =makeStyles((theme) => ({
+  root : {
+    
+    [theme.breakpoints.down(1024)] : {  width : 350}
+      
+    
+  }
+}));
 
 export default function PortraitCard(props) {
+  const classes = useStyles();
   return (
     
-    <Card sx={{ maxWidth: 300 , margin : 5, maxHeight : 450}}>
+    <Card  className={classes.root} sx={{ maxWidth: 300 , margin : 5, maxHeight : 450}}>
       <Link to = {`/Category/${props.type}/Article/${props.id}`} style={{textDecoration : "none", color : "black"}}>
       <CardActionArea>
-      <CardMedia
+      <CardMedia 
         component="img"
         height="200"
         image={props.img}

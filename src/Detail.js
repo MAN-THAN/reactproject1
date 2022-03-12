@@ -13,6 +13,7 @@ import Stack from '@mui/material/Stack';
 import PortraitCard from './PortraitCard';
 import "./stylehome.css"
 
+
 const Detail = () => {
     const {id} = useParams();
     console.log(id)

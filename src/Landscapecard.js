@@ -6,12 +6,37 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import { Link } from 'react-router-dom';
 import "./stylehome.css"
+import {makeStyles} from "@material-ui/core"
+
+const useStyles =makeStyles((theme) => ({
+  root : {
+    
+    [theme.breakpoints.down(1024)] : { width: 465, height : 280},
+    
+    
+    
+      
+    
+  }
+}));
+const useMobile =makeStyles((theme) => ({
+  root : {
+    
+    [theme.breakpoints.down(361)] : { flexDirection : "column"},
+    
+    
+      
+    
+  }
+}));
 
 export default function Landscapecard(props) {
+  const classes = useStyles();
+  const classe = useMobile();
   return (
-    <Card  sx={{ maxWidth: 650, margin : 2 }}>
+    <Card className={classes.root}   sx={{ maxWidth: 650, margin : 2 }}>
       <Link to = {`/Category/${props.type}/Article/${props.id}`} style={{textDecoration : "none", color : "black"}}>
-      <CardActionArea sx={{ display : "flex", flexDirection : "row" }}>
+      <CardActionArea className={classe.root} sx={{ display : "flex", flexDirection : "" }}>
         <CardMedia style= {{width : 280}}
           component="img"
           height="200"

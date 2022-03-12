@@ -167,3 +167,87 @@
 .yebhi{
     width: 85vw;
 }
+
+@media only screen and (max-width : 1024px){
+    .advertise-common{
+      width: 220px;
+    }
+    #img1{
+        height: 300px;
+    width: 580px;
+    left: -27px;
+    }
+    #img2, #img3{
+        height: 140px;
+    width: 230px;
+    right: -200px;
+
+    }
+    .advertise{
+        width: 300px;
+        height: 250px;
+        right: 100px;
+        top: 200vw;
+    }
+        .box-3{
+            position: absolute;
+            right: 100px;
+            top: 165vh;
+        
+        }
+        .toppost{
+            position: absolute;
+            right: 345px;
+            top: 156vh;
+           
+            
+        }
+        #text-over{
+            position: absolute;
+            top: 28vh;
+            left: 80px;}
+            .toppostt{
+                position: absolute;
+                right: 345px;
+                top: 33.7vh;
+            
+            }
+
+    
+  }
+  @media only screen and (max-width : 360px){
+    .container{flex-direction: column;}
+    .box{flex-direction: column;}
+    .main{width: 360px;}
+    #img1{width: 184px;}
+    #img2{width: 220px;}
+    #img3{width: 220px;}
+    .box-3{display: none;}
+    .advertise{display: none;}
+    .toppost{display: none;}
+    #text-over{display: none;}
+    .details{
+       
+        width: 65vw;
+    }
+    .common-toppost{
+        position: absolute;
+        right: -60px;
+       top: 380vh;
+    }
+    .toppostt{
+        display: none;
+        position: absolute;
+        right: 90px;
+        top: 343vh;
+    
+    }
+    .advertise-common{
+        display: none;
+    }
+    .yebhi{
+        position: relative;
+        right: 30px;
+    }
+    
+  }

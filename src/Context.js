@@ -92,7 +92,7 @@ export const Context = (props) => {
   }, {
     img : "https://stat1.bollywoodhungama.in/wp-content/uploads/2022/03/620_1.jpg",
     subhead : "Shraddha Kapoor to kick start the next schedule" ,
-    content : "Shraddha Kapoor is currently running a jam-packed schedule with multiple brand commitments and the shooting schedule of Luv Ranjan's next co-starring Ranbir Kapoor... ",
+    content : "Shraddha Kapoor is currently running a jam-packed schedule with multiple brand..",
     type : "Bollywood",
     created : "15 Mar 2022",
     id : 9,
@@ -102,7 +102,7 @@ export const Context = (props) => {
   },{
     img : "https://feeds.abplive.com/onecms/images/uploaded-images/2022/03/07/e02af1bacddb0deb192294bd884b795e_original.jpg?impolicy=abp_cdn&imwidth=720",
     subhead : "PM Modi Asks Putin To Hold Direct Talks With Zelensky" ,
-    content : "Prime Minister Narendra Modi on Monday spoke with Russian President Vladimir Putin on the ongoing crisis in Ukraine and urged Putin to hold direct talks with Ukrainian President Zelensky, as reported by news agency ANI. ",
+    content : "Prime Minister Narendra Modi on Monday spoke with Russian President Vladimir Putin ",
     type : "Global",
     created : "7 Mar 2022",
     id : 10,
