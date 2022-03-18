@@ -49,6 +49,10 @@
     margin-left: 8.4rem
   
 }
+.more{
+    margin-left: 8.4rem
+  
+}
 .subheading hr{
     width: 80px;
     height: 2px;
@@ -56,6 +60,14 @@
     border: 1px solid transparent;
 }
 .box{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8rem;
+   
+}
+.boxxx{
     width: 80vw;
     display: flex;
     flex-direction: row;
@@ -159,7 +171,7 @@
     .box{
         flex-direction: column;
         position: relative;
-        left: -5%;
+        left: 0%;
     }
     .advertise{
         display: none;
@@ -190,6 +202,10 @@
         
 
     }
+    .boxxx{
+        margin-left: 1.5rem;
+        flex-direction: column;
+    }
     .main{
        position: relative;
        left:-26%
@@ -213,6 +229,13 @@
     .box-2{
         position: relative;
       left: -7%;
+    }
+    .more{
+        margin-left: 3rem
+      
+    }
+    #text-over{
+        left: 15%;
     }
 }
     
