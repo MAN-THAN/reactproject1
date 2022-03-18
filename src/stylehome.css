@@ -158,6 +158,8 @@
 @media only screen and (max-width : 700px){
     .box{
         flex-direction: column;
+        position: relative;
+        left: -7%;
     }
     .advertise{
         display: none;
@@ -186,10 +188,13 @@
         width: 100%;
     }
     .main{
-        margin-left:4.9em ;
+       position: relative;
+       left:-26%
+
     }
     .details {
         margin: 2em;
+        width: 80vw;
     }
     .toppostt{
         display: none;
@@ -197,6 +202,10 @@
     .tourism{
         margin-left: 4.7rem;
         margin-top: 2rem;
+    }
+    .box-2{
+        position: relative;
+      left: -7%;
     }
 }
     
