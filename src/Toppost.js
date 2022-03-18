@@ -10,7 +10,7 @@ import {makeStyles} from "@material-ui/core"
 const useStyles =makeStyles((theme) => ({
   root : {
     
-    [theme.breakpoints.down(1024)] : { width: 250}
+    [theme.breakpoints.down(1025)] : { width: 300}
       
     
   }
@@ -18,13 +18,15 @@ const useStyles =makeStyles((theme) => ({
 
 export default function Landscapecard(props) {
   const classes = useStyles();
+  
+
   return (
-    <Card className={classes.root} sx={{ maxWidth:350, margin : 3, maxHeight : 200, textAlign : "top", justifyContent : "center"}}>
+    <Card className={classes.root} sx={{ maxWidth:350, margin : 3, maxHeight : 134, textAlign : "top", justifyContent : "center"}}>
       <Link to = {`/Category/${props.type}/Article/${props.id}`} style={{textDecoration : "none", color : "black"}}>
       <CardActionArea sx={{ display : "flex", flexDirection : "row" }}>
-        <CardMedia
+        <CardMedia 
           component="img"
-          height="90"
+          height="100"
           image={props.img}
           alt="green iguana"
         />

@@ -12,7 +12,7 @@ import {makeStyles} from "@material-ui/core"
 const useStyles =makeStyles((theme) => ({
   root : {
     
-    [theme.breakpoints.down(1024)] : {  width : 350}
+    [theme.breakpoints.down(1025)] : {  width : 350}
       
     
   }
@@ -22,7 +22,7 @@ export default function PortraitCard(props) {
   const classes = useStyles();
   return (
     
-    <Card  className={classes.root} sx={{ maxWidth: 300 , margin : 5, maxHeight : 450}}>
+    <Card  className={classes.root} sx={{ maxWidth: 300 , margin : 3, maxHeight : 450}}>
       <Link to = {`/Category/${props.type}/Article/${props.id}`} style={{textDecoration : "none", color : "black"}}>
       <CardActionArea>
       <CardMedia 

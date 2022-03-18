@@ -77,7 +77,7 @@ console.log(Obj)
           </CardActions>
         </Card>
         </div>
-       <div className='yebhi'>
+       <div >
         <div className='subheading'><h1>More From The Siren</h1><hr/></div>
         <div className='box'>
     {data[0].slice(3, 6).map((e) => {return (<PortraitCard key= {e.id} id = {e.id} detail = {e.detail} img = {e.img} subhead = {e.subhead} content = {e.content} type = {e.type} created = {e.created}/>)})}

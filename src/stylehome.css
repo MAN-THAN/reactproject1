@@ -1,60 +1,53 @@
 #img1{
-    height: 400px;
-    width: 720px;
+    height: 100%;
+    width: 68%;
     background-image: url(./wp2601438.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 8px;
-    margin:5px;
-    position: relative;
-    left: 5px;
+    margin:0.3rem;
 }
 #img2{
-    height: 195px;
-    width: 350px;
+    height: 48%;
+    width:30%;
     background-image: url(./wp2670840.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 8px;
-    margin: 5px;
-    position: absolute;
-    right: -275px;
-    bottom: 0px;
+    margin:0.3rem;
+  
    
     
 }
 #img3{
-    height: 195px;
-    width: 350px;
+    height: 48%;
+    width: 30%;
     background-image: url(./103-1037967_shiva-wallpaper-of-112ft-adiyogi-statue-version-adiyogi.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 8px;
-    margin: 5px;
+    margin:0.3rem;
     position: absolute;
-    right: -275px;
-    
-  
+    right: 0px;
+    top: 50.8%;
     
 }
 .container{
-    width: 60vw;
+    width: 80vw;
+    height: 60vh;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     position: relative;
-    left: 133px;
-    margin-top: 20px;
-  
-
+    margin-top: 1.5rem;
+    margin-left: 8rem;
+   
 }
 .subheading{
-    position: relative;
-    left: 140px;
-   
-    
+    margin-left: 8.4rem
+  
 }
 .subheading hr{
     width: 80px;
@@ -63,28 +56,29 @@
     border: 1px solid transparent;
 }
 .box{
+    width: 80vw;
     display: flex;
     flex-direction: row;
-    position: relative;
-    left: 113px;
-  
+    justify-content: space-between;
+    margin-left: 8rem;
+   
 }
 .box-2{
+    width: 80vw;
+    height: 176vh;
     display: flex;
     flex-direction: column;
+    margin-left: 8.6rem;
     position: relative;
-    left: 130px;
+   
 
 }
-.main{
-    width: 87vw;
-}
+
 .toppost{
     position: absolute;
-    right: 345px;
-    top: 207vh;
+    top: 0px;
+    right: 20%;
    
-    
 }
 .toppost hr{
     width: 80px;
@@ -93,33 +87,30 @@
     border: 1px solid transparent;
 }
 .box-3{
-    position: absolute;
-    right: 100px;
-    top: 213vh;
-
+   position: absolute;
+   right: 0px;
+   top: 5%;
 }
 .line{
     width: 50%;
-
-    position: relative;
-    left: 140px;
+    margin-left: 8.8rem;
 }
 .advertise{
-    width: 330px;
-    height: 350px;
+    width: 30%;
+    height:28%;
+    position: absolute;
+    right: 3%;
+    bottom: 19%;
     border: 2px solid  black;
     text-align: center;
-    position: absolute;
-    right: 130px;
-    top: 140vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #text-over{
     position: absolute;
-    top: 48vh;
-    left: 80px;
+    top: 75%;
+    left: 7.5%;
     z-index: 1000;
     color: wheat;
     font-size: xx-large;
@@ -128,14 +119,14 @@
 }
 .toppostt{
     position: absolute;
-    right: 345px;
-    top: 35.6vh;
-
-}
+    top: 0px;
+    right: 22%
+ }
+   
 .common-toppost{
-    position: absolute;
-    right: 100px;
-    top: 45vh;
+   position: absolute;
+   top: 3%;
+   right: 0px;
 }
 .toppostt hr{
     width: 80px;
@@ -144,110 +135,69 @@
     border: 1px solid transparent;
 }
 .advertise-common{
-    width: 320px;
-    height: 330px;
+    width: 32%;
+    height: 19.4%;
     border: 2px solid  black;
     text-align: center;
-    position: absolute;
-    right: 140px;
-    top: 183vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    right: 2.1%;
+    bottom: 4.7%;
+   
 }
-#tourism{
-    width: 80vw;
-}
+
 .details{
-    margin: 55px;
+    margin: 4rem;
     position: relative;
     left: 29%;
     width: 50vw;
 }
-.yebhi{
-    width: 85vw;
-}
 
-@media only screen and (max-width : 1024px){
-    .advertise-common{
-      width: 220px;
-    }
-    #img1{
-        height: 300px;
-    width: 580px;
-    left: -27px;
-    }
-    #img2, #img3{
-        height: 140px;
-    width: 230px;
-    right: -200px;
-
+@media only screen and (max-width : 361px){
+    .box{
+        flex-direction: column;
     }
     .advertise{
-        width: 300px;
-        height: 250px;
-        right: 100px;
-        top: 200vw;
+        display: none;
     }
-        .box-3{
-            position: absolute;
-            right: 100px;
-            top: 165vh;
-        
-        }
-        .toppost{
-            position: absolute;
-            right: 345px;
-            top: 156vh;
-           
-            
-        }
-        #text-over{
-            position: absolute;
-            top: 28vh;
-            left: 80px;}
-            .toppostt{
-                position: absolute;
-                right: 345px;
-                top: 33.7vh;
-            
-            }
-
-    
-  }
-  @media only screen and (max-width : 360px){
-    .container{flex-direction: column;}
-    .box{flex-direction: column;}
-    .main{width: 360px;}
-    #img1{width: 184px;}
-    #img2{width: 220px;}
-    #img3{width: 220px;}
-    .box-3{display: none;}
-    .advertise{display: none;}
-    .toppost{display: none;}
-    #text-over{display: none;}
-    .details{
-       
-        width: 65vw;
+    .box-3{
+        position: absolute;
+        bottom: 0px;
+        display: none;
     }
     .common-toppost{
-        position: absolute;
-        right: -60px;
-       top: 380vh;
+        display: none;
+    }
+    .advertise-common{
+        display: none;
+    }
+    .toppost{
+        display: none;
+    }
+    .container{
+        margin-top: 5rem;
+    }
+    #img2, #img3{
+        display: none;
+    }
+    #img1{
+        width: 100%;
+    }
+    .main{
+        margin-left:4.9em ;
+    }
+    .details {
+        margin: 5em;
     }
     .toppostt{
         display: none;
-        position: absolute;
-        right: 90px;
-        top: 343vh;
+    }
+    .tourism{
+        margin-left: 4.7rem;
+        margin-top: 2rem;
+    }
+}
     
-    }
-    .advertise-common{
-        display: none;
-    }
-    .yebhi{
-        position: relative;
-        right: 30px;
-    }
-    
-  }
+

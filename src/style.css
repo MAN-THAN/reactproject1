@@ -125,12 +125,29 @@
 
     
   }
-  @media only screen and (max-width : 360px){
-    .nav{
+  @media only screen and (max-width : 361px){
+    .nav ul{
+      flex-direction: column;
       width: 60%;
       position: relative;
-      left: 70px;
+      left: 58%;
     }
+    .nav{
+      border-bottom: 1px solid transparent;
+      
+    }
+    #siren{
+      font-size: 30px;
+      font-weight:1000;
+      font-family: sans-serif;
+  }
+  #vertical{
+    height: 32px;
+  }
+  .nav1{
+    margin-left: 11.2em;
+  }
+  
 
     
   }

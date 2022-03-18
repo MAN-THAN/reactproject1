@@ -11,7 +11,7 @@ import {makeStyles} from "@material-ui/core"
 const useStyles =makeStyles((theme) => ({
   root : {
     
-    [theme.breakpoints.down(1024)] : { width: 465, height : 280},
+    [theme.breakpoints.down(1025)] : { width: 465, height : 240},
     
     
     
@@ -23,6 +23,7 @@ const useMobile =makeStyles((theme) => ({
   root : {
     
     [theme.breakpoints.down(361)] : { flexDirection : "column"},
+    [theme.breakpoints.down(361)] : { width : 280}
     
     
       
