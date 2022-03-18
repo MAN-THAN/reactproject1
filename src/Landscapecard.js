@@ -22,11 +22,7 @@ const useStyles =makeStyles((theme) => ({
 const useMobile =makeStyles((theme) => ({
   root : {
     
-    [theme.breakpoints.down(700)] : { flexDirection : "column"},
-    [theme.breakpoints.down(700)] : { width : 280}
-    
-    
-      
+    [theme.breakpoints.down(700)] : { flexDirection : "column", width : 350 , height : 290}
     
   }
 }));
@@ -35,7 +31,7 @@ export default function Landscapecard(props) {
   const classes = useStyles();
   const classe = useMobile();
   return (
-    <Card className={classes.root}   sx={{ maxWidth: 650, margin : 2 }}>
+    <Card className={[classes.root, classe.root]}   sx={{ maxWidth: 650, margin : 2 }}>
       <Link to = {`/Category/${props.type}/Article/${props.id}`} style={{textDecoration : "none", color : "black"}}>
       <CardActionArea className={classe.root} sx={{ display : "flex", flexDirection : "" }}>
         <CardMedia style= {{width : 280}}
