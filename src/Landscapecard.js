@@ -22,8 +22,8 @@ const useStyles =makeStyles((theme) => ({
 const useMobile =makeStyles((theme) => ({
   root : {
     
-    [theme.breakpoints.down(361)] : { flexDirection : "column"},
-    [theme.breakpoints.down(361)] : { width : 280}
+    [theme.breakpoints.down(700)] : { flexDirection : "column"},
+    [theme.breakpoints.down(700)] : { width : 280}
     
     
       
