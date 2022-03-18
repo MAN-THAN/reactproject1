@@ -55,6 +55,7 @@
   }
   nav ul li {
     display: inline-block;
+    text-align: center;
    
   }
   nav ul li a {
@@ -135,7 +136,7 @@
     .nav{
       border-bottom: 1px solid transparent;
       position: relative;
-      left: -48%;
+      left: -30%;
       
     }
     #siren{
@@ -147,7 +148,10 @@
     height: 32px;
   }
   .nav1{
-    margin-left: 11.2em;
+    margin-left: 11em;
+    position: relative;
+    left: 20px;
+
   }
   
 
