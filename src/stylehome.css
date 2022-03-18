@@ -193,14 +193,18 @@
 
     }
     .details {
-        margin: 2em;
+        
+        margin-top: 7em;
         width: 80vw;
+        position: relative;
+        left: -5%;
     }
     .toppostt{
         display: none;
     }
     .tourism{
-        margin-left: 4.7rem;
+        position: relative;
+        left: -25%;
         margin-top: 2rem;
     }
     .box-2{
