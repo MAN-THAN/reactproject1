@@ -16,7 +16,7 @@ const App = () => {
   return (
      <Context>
     <Router>
-      <ScrollToTop />
+     <ScrollToTop />
      <Navbar />
     <Routes>
        <Route path='' element = {<Home />}/>

@@ -166,6 +166,12 @@
     left: 29%;
     width: 50vw;
 }
+.spinner{
+    position: absolute;
+    left: 47%;
+    top: 55%;
+    transform: scale(3);
+}
 
 @media only screen and (max-width : 700px){
     .box{
